@@ -1,0 +1,140 @@
+{
+  "main": {
+    "name": "Derice Kong",
+    "occupation": "Senior Real Estate Negotiator",
+    "description": "I eat, sleep and breathe Malaysia Real Estate",
+    "image": "12642895_10153893771984935_2642521198936754317_n.jpg",
+    "bio": "Hi there! I am Derice! I've been working in the real estate industry for over 8 years now. As a full-time real estate professional I work on selling/renting of residential, commercial and industrial properties. My clients are ranging from local residents, expats, SME to public listed companies. Along the journey I realised my passion existed in helping my clients to solve their problems or achieve their goals. With this passion, I have successfully closed over 100 of deals and build trust and friendship along the way. It is of particularly fufilling to gain the trust of my clients. Even after successful deal, they still refer friends and think of me whenever they/their friend have a need in selling/buying a real estate.",
+    "contactmessage": "Get in touch with me for your real estate needs",
+    "email": "derice.realty@gmail.com",
+    "phone": "+017-6631034",
+    "address": {
+      "street": "Silk Residence",
+      "city": "Cheras",
+      "state": "Selangor",
+      "zip": "43200"
+    },
+    "website": "https://www.papareact.com/course",
+    "resumedownload": "http://papareact.com",
+    "social": [
+      {
+        "name": "youtube",
+        "url": "https://www.youtube.com/channel/UCqeTj_QAnNlmt7FwzNwHZnA",
+        "className": "fa fa-youtube"
+      },
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/sonny.sangha.3",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/saajansangha",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/ssssangha/",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/PapaReact",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "My Coverage Area",
+    "education": [
+      {
+        "school": "University Malaya - MY",
+        "degree": "Bachelor's Degree, Software Engineering",
+        "graduated": "October 2010",
+        "description": ""
+      }
+    ],
+    "work": [
+      {
+        "company": "The Roof Realty Sdn Bhd",
+        "title": "Sr. REN",
+        "years": "Dec 2018 - Present",
+        "description": ""
+      },
+      {
+        "company": "FLP Sdn Bhd",
+        "title": "Asst. Team Leader",
+        "years": "Nov 2015 - Dec 2018",
+        "description": ""
+      },
+      {
+        "company": "GS Realty Sdn Bhd",
+        "title": "Team Leader",
+        "years": "May 2015 - Nov 2015",
+        "description": ""
+      },
+      {
+        "company": "GS Realty Sdn Bhd",
+        "title": "Sr. REN",
+        "years": "Nov 2013 - May 2015",
+        "description": ""
+      }
+    ],
+    "skills": [
+      {
+        "name": "Bandar Mahkota Cheras",
+        "level": "100%"
+      },
+      {
+        "name": "Bandar Sungai Long",
+        "level": "100%"
+      },
+      {
+        "name": "Cheras",
+        "level": "80%"
+      },
+      {
+        "name": "Bukit Beruntung",
+        "level": "90%"
+      },
+      {
+        "name": "Bukit Sentosa",
+        "level": "90%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Snapchat Clone (React JS)",
+        "category": "",
+        "image": "snapchat.jpg",
+        "url": "https://youtu.be/1kGISk5ft2w"
+      },
+      {
+        "title": "Gmail Clone (React JS)",
+        "category": "",
+        "image": "gmail.jpg",
+        "url": "https://youtu.be/b7nrXjS6Dqs"
+      },
+      {
+        "title": "LinkedIn Clone (React JS)",
+        "category": "",
+        "image": "linkedin.jpg",
+        "url": "https://youtu.be/QaYts9sPmcY"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "Derice is absolutely professional, his depth of knowledge & his way of understanding and help of our situation and concerns really meant a lot to us... I would definitely recommend",
+        "user": "Jorge Fouto"
+      },
+      {
+        "text": "Dealing with Derice has been a very pleasant experience. He makes understanding why bank rejected our application and how we should do to get the bank to approve our mortgage application easily &  approachable, you'll finally feel like you know what's going on!",
+        "user": "Adam Curtis"
+      }
+    ]
+  }
+}
