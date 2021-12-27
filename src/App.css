@@ -3,3 +3,44 @@
   border-radius: 5px;
   padding: 20px;
 }
+
+.hide {
+  display: none;
+}
+
+.preview-data{
+  border: 1px solid #e5e5e5;
+}
+
+.preview-container {
+  text-align: center;
+}
+.img-container {
+  text-align: center;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  padding: 10px;
+  text-align: left;
+}
+
+.domain{
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+.header {
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+.description {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  min-width: 0;
+  overflow: hidden;
+  font-size: 1rem;
+}

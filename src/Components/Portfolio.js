@@ -2,23 +2,22 @@ import React from "react";
 
 const Portfolio = ({ data }) => {
   if (data) {
-    var projects = data.projects.map(function (projects) {
-      var projectImage = "images/portfolio/" + projects.image;
+    var listings = data.listings.map(function (listings) {
       return (
-        <div key={projects.title} className="columns portfolio-item">
-          <div className="item-wrap">
-            <a href={projects.url} title={projects.title}>
-              <img alt={projects.title} src={projectImage} />
-              <div className="overlay">
-                <div className="portfolio-item-meta">
-                  <h5>{projects.title}</h5>
-                  <p>{projects.category}</p>
-                </div>
-              </div>
-              <div className="link-icon">
-                <i className="fa fa-link"></i>
-              </div>
-            </a>
+        <div class="preview-data columns portfolio-item">
+          <div class="item-wrap">
+            <div class="img-container">
+              <img
+                class="img"
+                src={listings.image_url}
+                alt="active listing"
+              ></img>
+            </div>
+            <div class="text-container">
+              <span class="domain">{listings.domain}</span>
+              <span class="header">{listings.header}</span>
+              <span class="description">{listings.description}</span>
+            </div>
           </div>
         </div>
       );
@@ -29,13 +28,13 @@ const Portfolio = ({ data }) => {
     <section id="portfolio">
       <div className="row">
         <div className="twelve columns collapsed">
-          <h1>Check Out Some of My Works.</h1>
+          <h1>My active listings.</h1>
 
           <div
             id="portfolio-wrapper"
-            className="bgrid-quarters s-bgrid-thirds cf"
+            className="bgrid-thirds s-bgrid-halves cf"
           >
-            {projects}
+            {listings}
           </div>
         </div>
       </div>
