@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 
 const Contact = ({ data }) => {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [subject, setSubject] = useState("");
-  const [message, setMessage] = useState("");
+  // const [name, setName] = useState("");
+  // const [email, setEmail] = useState("");
+  // const [subject, setSubject] = useState("");
+  // const [message, setMessage] = useState("");
 
   if (data) {
     var contactName = data.name;
@@ -17,15 +17,15 @@ const Contact = ({ data }) => {
     var contactMessage = data.contactmessage;
   }
 
-  const submitForm = () => {
-    window.open(
-      `mailto:${contactEmail}?subject=${encodeURIComponent(
-        subject
-      )}&body=${encodeURIComponent(name)} (${encodeURIComponent(
-        email
-      )}): ${encodeURIComponent(message)}`
-    );
-  };
+  // const submitForm = () => {
+  //   window.open(
+  //     `mailto:${contactEmail}?subject=${encodeURIComponent(
+  //       subject
+  //     )}&body=${encodeURIComponent(name)} (${encodeURIComponent(
+  //       email
+  //     )}): ${encodeURIComponent(message)}`
+  //   );
+  // };
 
   return (
     <section id="contact">
@@ -43,7 +43,8 @@ const Contact = ({ data }) => {
 
       <div className="row">
         <div className="eight columns">
-          <form onSubmit={submitForm}>
+          <form name="contact-form" method="POST" data-netlify="true">
+            <input type="hidden" name="form-name" value="contact-form" />
             <fieldset>
               <div>
                 <label htmlFor="contactName">
@@ -52,11 +53,9 @@ const Contact = ({ data }) => {
                 <input
                   type="text"
                   defaultValue=""
-                  value={name}
                   size="35"
                   id="contactName"
                   name="contactName"
-                  onChange={(e) => setName(e.target.value)}
                 />
               </div>
 
@@ -67,11 +66,9 @@ const Contact = ({ data }) => {
                 <input
                   type="text"
                   defaultValue=""
-                  value={email}
                   size="35"
                   id="contactEmail"
                   name="contactEmail"
-                  onChange={(e) => setEmail(e.target.value)}
                 />
               </div>
 
@@ -80,11 +77,9 @@ const Contact = ({ data }) => {
                 <input
                   type="text"
                   defaultValue=""
-                  value={subject}
                   size="35"
                   id="contactSubject"
                   name="contactSubject"
-                  onChange={(e) => setSubject(e.target.value)}
                 />
               </div>
 
@@ -95,15 +90,13 @@ const Contact = ({ data }) => {
                 <textarea
                   cols="50"
                   rows="15"
-                  value={message}
-                  onChange={(e) => setMessage(e.target.value)}
                   id="contactMessage"
                   name="contactMessage"
                 ></textarea>
               </div>
 
               <div>
-                <button onClick={submitForm} type="submit" className="submit">
+                <button type="submit" className="submit">
                   Submit
                 </button>
               </div>
