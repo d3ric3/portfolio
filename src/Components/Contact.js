@@ -28,12 +28,7 @@ const Contact = ({ data }) => {
 
       <div className="row">
         <div className="eight columns">
-          <form
-            name="contact-form"
-            method="POST"
-            data-netlify-recaptcha="true"
-            data-netlify="true"
-          >
+          <form name="contact-form" method="POST" data-netlify="true">
             <input type="hidden" name="form-name" value="contact-form" />
             <fieldset>
               <div>
@@ -84,8 +79,6 @@ const Contact = ({ data }) => {
                   name="contactMessage"
                 ></textarea>
               </div>
-
-              <div data-netlify-recaptcha="true"></div>
 
               <div>
                 <button type="submit" className="submit">
