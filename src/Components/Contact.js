@@ -1,11 +1,6 @@
 import React from "react";
 
 const Contact = ({ data }) => {
-  // const [name, setName] = useState("");
-  // const [email, setEmail] = useState("");
-  // const [subject, setSubject] = useState("");
-  // const [message, setMessage] = useState("");
-
   if (data) {
     var contactName = data.name;
     var street = data.address.street;
@@ -16,16 +11,6 @@ const Contact = ({ data }) => {
     var contactEmail = data.email;
     var contactMessage = data.contactmessage;
   }
-
-  // const submitForm = () => {
-  //   window.open(
-  //     `mailto:${contactEmail}?subject=${encodeURIComponent(
-  //       subject
-  //     )}&body=${encodeURIComponent(name)} (${encodeURIComponent(
-  //       email
-  //     )}): ${encodeURIComponent(message)}`
-  //   );
-  // };
 
   return (
     <section id="contact">
@@ -43,7 +28,12 @@ const Contact = ({ data }) => {
 
       <div className="row">
         <div className="eight columns">
-          <form name="contact-form" method="POST" data-netlify="true">
+          <form
+            name="contact-form"
+            method="POST"
+            data-netlify-recaptcha="true"
+            data-netlify="true"
+          >
             <input type="hidden" name="form-name" value="contact-form" />
             <fieldset>
               <div>
@@ -94,6 +84,8 @@ const Contact = ({ data }) => {
                   name="contactMessage"
                 ></textarea>
               </div>
+
+              <div data-netlify-recaptcha="true"></div>
 
               <div>
                 <button type="submit" className="submit">
