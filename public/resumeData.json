@@ -88,32 +88,11 @@
   "portfolio": {
     "listings": [
       {
-        "url": "https://www.iproperty.com.my/property/bandar-mahkota-cheras/sale-102842604/",
-        "image_url": "https://img.iproperty.com.my/my-iproperty/premium/1200x630-fit/w-0pu01d170133-effb-4465-ae26-b3ba1b9ed3a6_1632x1224.jpeg",
-        "domain": "iproperty.com.my",
-        "header": "Sek 3, Bandar Mahkota Cheras Intermediate 2-sty Terrace/Link House 4 bedrooms for sale | iProperty.com.my",
-        "description": "Sek 3, Bandar Mahkota Cheras for sale at RM 520,000. Learn more about this Freehold, 1,400 built-up size, 1,300 land area size, 4 bedrooms, 3 bathrooms, 2-sty terrace/link house at iProperty.com.my. View property details, amenities and facilities, points of interests, and transaction history now."
-      },
-      {
-        "url": "https://www.iproperty.com.my/property/bandar-sungai-long/sale-102625052/",
-        "image_url": "https://img.iproperty.com.my/my-iproperty/premium/1200x630-fit/w-7odhf84e4577-40ba-4676-9de7-86339af3bdaa_973x730.jpeg",
-        "domain": "iproperty.com.my",
-        "header": "40x97, Taming Indah 1, Bandar Sungai Long Intermediate Semi-detached House 4+1 bedrooms for sale  | iProperty.com.my",
-        "description": "40x97, Taming Indah 1, Bandar Sungai Long for sale at RM 1,550,000. Learn more about this Freehold, 2,610 built-up size, 3,880 land area size, 4+1 bedrooms, 4 bathrooms, semi-detached house at iProperty.com.my. View property details, amenities and facilities, points of interests, and transaction history now."
-      },
-      {
         "url": "https://www.iproperty.com.my/property/bandar-sungai-long/sale-102651590/",
         "image_url": "https://img.iproperty.com.my/my-iproperty/premium/1200x630-fit/w-wcq42aa1385c-c6e5-4b1e-8047-5b058928c462_931x730.jpeg",
         "domain": "iproperty.com.my",
         "header": "40x80, Taman Seri Sungai Long, Bandar Sungai Long End lot Semi-detached House 4+1 bedrooms for sale  | iProperty.com.my",
         "description": "40x80, Taman Seri Sungai Long, Bandar Sungai Long for sale at RM 998,000. Learn more about this Freehold, 3,000 built-up size, 3,200 land area size, 4+1 bedrooms, 6 bathrooms, semi-detached house at iProperty.com.my. View property details, amenities and facilities, points of interests, and transaction history now."
-      },
-      {
-        "url": "https://www.iproperty.com.my/property/bandar-mahkota-cheras/sale-102658753/",
-        "image_url": "https://img.iproperty.com.my/my-iproperty/premium/1200x630-fit/w-xnbi0bb1ffed-95b7-4c0f-9009-f253578e5d24_920x690.jpeg",
-        "domain": "iproperty.com.my",
-        "header": "Pearl Villa, Jalan Shahbandar, Bandar Mahkota Cheras Intermediate Bungalow 6+1 bedrooms for sale  | iProperty.com.my",
-        "description": "Pearl Villa, Jalan Shahbandar, Bandar Mahkota Cheras for sale at RM 2,380,000. Learn more about this Freehold, 5,500 built-up size, 6,284 land area size, 6+1 bedrooms, 7 bathrooms, bungalow at iProperty.com.my. View property details, amenities and facilities, points of interests, and transaction history now."
       },
       {
         "url": "https://www.iproperty.com.my/property/bandar-sungai-long/sale-102826245/",
@@ -123,11 +102,32 @@
         "description": "SL 7, BSL, SL 6, Bandar Sungai Long for sale at RM 560,000. Learn more about this Freehold, 1,650 built-up size, 1,220 land area size, 4 bedrooms, 3 bathrooms, 2-sty terrace/link house at iProperty.com.my. View property details, amenities and facilities, points of interests, and transaction history now."
       },
       {
+        "url": "https://www.iproperty.com.my/property/bandar-mahkota-cheras/sale-102658753/",
+        "image_url": "https://img.iproperty.com.my/my-iproperty/premium/1200x630-fit/w-xnbi0bb1ffed-95b7-4c0f-9009-f253578e5d24_920x690.jpeg",
+        "domain": "iproperty.com.my",
+        "header": "Pearl Villa, Jalan Shahbandar, Bandar Mahkota Cheras Intermediate Bungalow 6+1 bedrooms for sale  | iProperty.com.my",
+        "description": "Pearl Villa, Jalan Shahbandar, Bandar Mahkota Cheras for sale at RM 2,380,000. Learn more about this Freehold, 5,500 built-up size, 6,284 land area size, 6+1 bedrooms, 7 bathrooms, bungalow at iProperty.com.my. View property details, amenities and facilities, points of interests, and transaction history now."
+      },
+      {
         "url": "https://www.iproperty.com.my/property/bandar-sungai-long/sale-102625298/",
         "image_url": "https://img.iproperty.com.my/my-iproperty/premium/1200x630-fit/w-2ttt8406eee6-9939-4f16-8d0e-75abbca4d35b_710x699.jpeg",
         "domain": "iproperty.com.my",
         "header": "22x75, Taming Indah 2, Bandar Sungai Long Intermediate 3-sty Terrace/Link House 5+1 bedrooms for sale  | iProperty.com.my",
         "description": "22x75, Taming Indah 2, Bandar Sungai Long for sale at RM 1,250,000. Learn more about this Freehold, 3,632 built-up size, 1,650 land area size, 5+1 bedrooms, 5 bathrooms, 3-sty terrace/link house at iProperty.com.my. View property details, amenities and facilities, points of interests, and transaction history now."
+      },
+      {
+        "url": "https://www.iproperty.com.my/property/bandar-sungai-long/sale-102890435/",
+        "image_url": "https://img.iproperty.com.my/my-iproperty/premium/1200x630-fit/w-8oku3706f52a-955d-4fcb-8edd-fec9d9e2dd57_810x807.jpeg",
+        "domain": "iproperty.com.my",
+        "header": "Taman Sejati Hill Villa, Bandar Sungai Long Corner lot Semi-detached House 6 bedrooms for sale  | iProperty.com.my",
+        "description": "Taman Sejati Hill Villa, Bandar Sungai Long for sale at RM 2,000,000. Learn more about this Freehold, 4,360 built-up size, 5,941 land area size, 6 bedrooms, 5 bathrooms, semi-detached house at iProperty.com.my. View property details, amenities and facilities, points of interests, and transaction history now."
+      },
+      {
+        "url": "https://www.iproperty.com.my/property/bandar-sungai-long/sale-102625052/",
+        "image_url": "https://img.iproperty.com.my/my-iproperty/premium/1200x630-fit/w-7odhf84e4577-40ba-4676-9de7-86339af3bdaa_973x730.jpeg",
+        "domain": "iproperty.com.my",
+        "header": "40x97, Taming Indah 1, Bandar Sungai Long Intermediate Semi-detached House 4+1 bedrooms for sale  | iProperty.com.my",
+        "description": "40x97, Taming Indah 1, Bandar Sungai Long for sale at RM 1,550,000. Learn more about this Freehold, 2,610 built-up size, 3,880 land area size, 4+1 bedrooms, 4 bathrooms, semi-detached house at iProperty.com.my. View property details, amenities and facilities, points of interests, and transaction history now."
       }
     ]
   },
